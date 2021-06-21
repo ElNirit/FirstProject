@@ -1,13 +1,23 @@
+*{
+    display: block;
+}
 body{
     direction: rtl;
     text-align: right;
     margin: 0;
-    color:beige;
+    font-family: 'Arial (Hebrew)', Arial;
+    padding-bottom: 38px;
 }
-p{
-    color:red;
-}
+
 header{
     background-color:#909090;
     padding-top: 50px;
+    }
+.searchbox{
+    position: relative;
+    top: 2px;
+    right: 4px;
+    width: 126px;
+    background: transparent;
+    border: 0 none;
 }
