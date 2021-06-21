@@ -1,6 +1,12 @@
 body{
+    direction: rtl;
+    text-align: right;
+    margin: 0;
     color:beige;
 }
 p{
     color:red;
+}
+header{
+    background-color:#909090;
 }
