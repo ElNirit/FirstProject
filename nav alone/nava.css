@@ -9,7 +9,7 @@ body{
     font-family: Arial;
     /* padding-bottom: 38px; */
 }
-div.container{
+div.containerhead{
     position:relative;
 }
 header{
@@ -21,6 +21,9 @@ div.input{
     position: absolute;
     top: 5px;;
     left:5px;
+}
+ul, li{
+    list-style: none;
 }
 li.home{
     width:17px;
