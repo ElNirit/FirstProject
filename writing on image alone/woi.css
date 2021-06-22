@@ -1,0 +1,25 @@
+
+*{
+    direction: rtl;
+
+}
+.col1{
+    position:relative;
+}
+.writingOnImg{
+    position:absolute;
+    font-size:x-small;
+    right: 0px;
+    width: 228px;
+    height: 77px;
+    overflow: hidden;
+    padding: 10px;
+    left: 38px;
+    bottom: 6px;
+    color: #fff;
+    background: url("hp_tab_text_bg.png") no-repeat 0 0;
+}
+img.overlay { 
+    width: 291px;
+    height: 354px;
+}
