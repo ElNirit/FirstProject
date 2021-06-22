@@ -168,3 +168,11 @@ footer{
     height: 38px;
     bottom: 0;
 }
+div.sidebar{
+    width: 122px;
+    float:right;
+    /* margin-left: 22px; */
+    display: block;
+    color: #5c5c5c;
+    background-image:linear-gradient(#FEFEFE, #FBFBFB, #FFFFFF);
+}
