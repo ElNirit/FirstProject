@@ -106,6 +106,8 @@ nav > ul > li.active > a {
     align-content: center;
     }
 .row1 {
+    margin-left:300px;
+    margin-right: 300px;
     display: flex;
     flex-wrap: wrap;
     height:355px;
@@ -113,15 +115,16 @@ nav > ul > li.active > a {
     justify-content: space-around;
   }
   
-/* .col1 .col2 .col3 {
+  
+.col1, .col2, .col3 {
     position: relative;
-    width: calc(900/3);
+    width: 33%;
     justify-items: space-around;
 
-  } */
-  .col1{
+  }
+  /* .col1, .col2{
     position:relative;
-}
+} */
   .writingOnImg{
     position:absolute;
     font-size:xx-small;
@@ -134,6 +137,9 @@ nav > ul > li.active > a {
     bottom: 6px;
     color: #fff;
     background: url("images/images/hp_tab_text_bg.png") no-repeat 0 0;
+}
+.writingOnImg>.readWhite{
+    align-items: flex-end;
 }
 img.overlay { 
     width: 291px;
