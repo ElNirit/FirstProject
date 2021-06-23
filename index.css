@@ -7,12 +7,13 @@ body{
     direction: rtl;
     text-align:right;
     margin: 0;
-    font-family: Arial;
+    font-family: 'Arial (Hebrew)', Arial;
     padding-bottom: 38px;
+
 }
 
 div.containerhead{
-    width: 100%;
+    /* width: 900px; */
     margin: 0 auto;
     position:relative;
 }
@@ -20,16 +21,18 @@ div.containerhead{
 header{
     background-image: linear-gradient(#909090,#919191, #939393, #959595, #A9A9A9);
     /* background: #fff url("images/images/header_bg.png") repeat-x center top; */
-    padding-top: 50px;
+    /* padding-/top: 50px; */
     width: 100%;
-    height: 105px;
+    height: 150px;
 }
 
-a.logo{
-    position: absolute;
-    top: 5;
+/* li.logo{
+    position: relative;
+    padding-left: 50px;
+    bottom: -50px;
+    top: 40;
     right: 0;
-}
+} */
 
 div.input{
     position: absolute;
@@ -45,16 +48,16 @@ ul>li.dropdown{
 li.sep{
     width: 4px;
     height: 21px;
-    /* margin: 0 16px; */
+    margin: 0 16px;
 }
-/* li.a{
-    font-size:15px;
+/* li>a{
+    font-size:12px;
     font-weight: bold;
     display:inline-block;
 } */
 nav{
-    position:relative;
-    width: 100%;
+    position:absolute;
+    /* width: 100%; */
     /* background-image: linear-gradient(#909090,#919191, #939393, #959595, #A9A9A9); */
 }
 
@@ -62,10 +65,14 @@ ul:first-child{
     padding-right:150px;
 }
 nav>ul>li{
+    /* position: relative; */
+    margin-top: 30px;
     display: inline-block;
     /* display: block; */
 }
 nav>ul>li>a, .dropdown-content > a{
+    font-size:12px;
+    font-weight:bold;
     color:white;
     /* background-image: linear-gradient(#909090,#919191, #939393, #959595, #A9A9A9); */
     text-decoration: none;
@@ -79,7 +86,7 @@ nav>ul>li>a, .dropdown-content > a{
 .dropdown-content {
     display: none;
     background-image: linear-gradient(#909090,#919191, #939393, #959595, #A9A9A9);
-    /* position: absolute; */
+    position: absolute;
     /* right: %; */
     width: max-content;
     box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
@@ -90,14 +97,15 @@ nav>ul>li>a, .dropdown-content > a{
 a:hover{
     background-image: linear-gradient(#909090,#919191, #939393, #959595, #A9A9A9);
     text-decoration: underline;
-    color: #005CA0 !important;
+    color: #005CA0;
     font-weight: bolder;
 }
+
 
 .container {
     width: 900px;
     margin: 0 auto;
-    padding-top: 150px;
+    padding-top: 50px;
     align-content: center;
 }
 .row1 {
@@ -120,7 +128,7 @@ a:hover{
     width: 228px;
     height: 77px;
     overflow: hidden;
-    padding: 10px;
+    padding: 5px;
     left: 38px;
     bottom: 6px;
     color: #fff;
@@ -135,6 +143,10 @@ img.overlay {
     width: 291px;
     height: 354px;
 }
+img.smOverlay{
+    width: 250px;
+    height: 110px;
+}
 
 .row2 {
     /* margin-left:300px;
@@ -146,16 +158,20 @@ img.overlay {
     /* justify-content: space-around; */
 
 }
-.col4 .col5 .col6 {
-    width: calc(900/3);
-    justify-items: space-around;
-
-}
 
 .col4, .col5, .col6 {
     position: relative;
     width: 33%;
     justify-items: space-around;
+    background: url("images/images/small_cube_bg.png") no-repeat 0 0;
+}
+.col4{
+
+}
+.readYellow{
+  /* text-align:left ;  */
+  color: #575757;
+  margin-top: 18px;
 }
 
 footer{
@@ -168,6 +184,8 @@ footer{
     height: 38px;
     bottom: 0;
 }
+/* for the contact page */
+
 div.sidebar{
     width: 122px;
     float:right;
