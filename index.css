@@ -233,6 +233,8 @@ a:hover{
 nav>div.sidebar{
     /* list-style */
     width: 122px;
+    height: 41px;
+    margin-left:22px;
     float:right;
     /* display: block; */
     color: #5c5c5c;
@@ -255,4 +257,16 @@ div.triangle {
     border-bottom-color: transparent;
     border-left-color: transparent;
 }
-
+.col8{
+    width:426px;
+    height: 440px;
+    margin-left:24px;
+}
+div.row81{
+    font-size: 12px;
+}
+h1.contact{
+    width:426px;
+    height: 440px;
+    margin-left:24px;
+}
