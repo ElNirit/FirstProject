@@ -161,7 +161,7 @@ img.smOverlay{
     position: relative;
     width: 292px;
     height: 216px;
-    padding: 0px
+    padding: 0px;
     justify-items: space-around;
     background: url("images/images/small_cube_bg.png") no-repeat 0 0;
 }
@@ -223,12 +223,36 @@ a:hover{
 }
  
 /* for the contact page */
+/* div.container{
+    width:900px;
+    height: 563px;
+    margin-left: 188px;
+    margin-right:188px;
+} */
 
-div.sidebar{
+nav>div.sidebar{
+    /* list-style */
     width: 122px;
     float:right;
-    /* margin-left: 22px; */
-    display: block;
+    /* display: block; */
     color: #5c5c5c;
-    background-image:linear-gradient(#FEFEFE, #FBFBFB, #FFFFFF);
+    background-image:linear-gradient(rgb(226, 220, 220) 70%, #909090);
+    /* display: inline-block; */
+
 }
+div.sidebar>ul {
+    flex-wrap: wrap;
+	list-style: none;
+}
+div.triangle {
+    display: inline-block;
+    color: white;
+    width: 0px;
+    height: 0px;
+    border: 6px solid black;
+    border-top-color: transparent;
+    border-right-color: rgb(40, 40, 196);
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+
