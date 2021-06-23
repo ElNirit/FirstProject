@@ -56,7 +56,7 @@ li.sep{
     font-weight: bold;
     display:inline-block;
 } */
-nav{
+nav.headerNav{
     position:absolute;
     /* width: 100%; */
     /* background-image: linear-gradient(#909090,#919191, #939393, #959595, #A9A9A9); */
@@ -187,7 +187,8 @@ footer{
     width: 100%;
     height: 38px;
     bottom: 0;
-}img.imgFloat{
+}
+img.imgFloat{
     float: left;
 }
 ul.fixPad>li{
