@@ -80,7 +80,6 @@ nav.headerNav>ul>li>a, .dropdown-content > a{
     font-weight:bold;
     color:white;
     /* background-image: linear-gradient(#909090,#919191, #939393, #959595, #A9A9A9); */
-    text-decoration: none;
     padding: 10px;
     display: block;
 }
@@ -92,19 +91,13 @@ nav.headerNav>ul>li>a, .dropdown-content > a{
     display: none;
     background-image: linear-gradient(#909090,#919191, #939393, #959595, #A9A9A9);
     position: absolute;
-    /* right: %; */
     width: max-content;
     box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
 }
 .dropdown:hover > .dropdown-content {
     display: block;
 }
-a:hover{
-    background-image: linear-gradient(#909090,#919191, #939393, #959595, #A9A9A9);
-    text-decoration: underline;
-    color: #005CA0;
-    font-weight: bold;
-}
+
 
 
 .container {
@@ -114,10 +107,11 @@ a:hover{
     align-content: center;
 }
 .row1 {
+    margin-bottom: 5px;
     display: flex;
     flex-wrap: wrap;
     height:355px;
-    justify-content: center;
+    justify-content: space-around;
 }
    
 .col1, .col2, .col3 {
@@ -154,19 +148,20 @@ img.smOverlay{
 }
 
 .row2 {
-    /* margin-left:300px;
-    margin-right: 300px; */
+    margin-top: 5px; 
     display: flex;
     flex-wrap: wrap;
-    height: 216px;;
+    height: 216px;
     /* width: 900px; */
-    /* justify-content: space-around; */
+    justify-content: space-around;
 
 }
 
 .col4, .col5, .col6 {
     position: relative;
-    width: 33%;
+    width: 292px;
+    height: 216px;
+    padding: 0px
     justify-items: space-around;
     background: url("images/images/small_cube_bg.png") no-repeat 0 0;
 }
@@ -181,6 +176,13 @@ img.smOverlay{
   margin-top: 18px;
 }
 
+.col6{
+    display:flex;
+    display:inline-block;
+}
+.col6flex{
+    justify-content:space-evenly;
+}
 footer{
     position: fixed;
     text-align: center;
@@ -192,7 +194,10 @@ footer{
     bottom: 0;
 }
 img.imgFloat{
-    float: left;
+    height:168px;
+    width:73px;
+    float:left;
+    /* bottom: 250px; */
 }
 nav.footerNav{
 padding-bottom: 16px;
@@ -204,13 +209,17 @@ nav.footerNav>ul>li{
     /* display: block; */
 }
 nav.footerNav>ul>li>a{
-    font-size:12px;
+    font-size:14px;
     font-weight:bold;
     color:white;
     /* background-image: linear-gradient(#909090,#919191, #939393, #959595, #A9A9A9); */
-    text-decoration: none;
     padding-bottom: 10px;
-    /* display: inline-block; */
+}
+a:hover{
+    background-image: linear-gradient(#909090,#919191, #939393, #959595, #A9A9A9);
+    text-decoration: underline;
+    color: #005CA0;
+    font-weight: bold;
 }
  
 /* for the contact page */
